@@ -1,0 +1,5 @@
+train: images/train
+val: images/val
+test: images/test
+nc: 4
+names: ['motocicleta', 'casco_correcto', 'casco_mal_puesto', 'sin_casco']

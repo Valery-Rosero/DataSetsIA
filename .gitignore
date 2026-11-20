@@ -1,0 +1,7 @@
+# Datos pesados: se regeneran con los scripts (ver README)
+datasets_casco/fuentes/
+datasets_casco/zips/
+datasets_casco/unificado/images/
+
+__pycache__/
+*.pyc

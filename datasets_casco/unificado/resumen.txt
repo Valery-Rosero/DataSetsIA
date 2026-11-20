@@ -1,0 +1,26 @@
+RESUMEN DE UNIFICACIÓN
+============================================================
+
+Cajas por fuente (detector):
+  edgevision                2392 imgs | motocicleta=3793, casco_correcto=1671, sin_casco=2810
+  helmet_violation           347 imgs | motocicleta=70, casco_correcto=362, casco_mal_puesto=1, sin_casco=181
+  ldrago_helmet             2258 imgs | casco_correcto=2844, casco_mal_puesto=286, sin_casco=913
+  mapua_helmet              3749 imgs | casco_correcto=3987, casco_mal_puesto=564, sin_casco=1318
+  motorcycle_helmet_od      3607 imgs | casco_correcto=10398, sin_casco=4900
+  proper_helmet_usage        950 imgs | casco_correcto=434, casco_mal_puesto=457
+
+TOTAL cajas: motocicleta=3863, casco_correcto=19696, casco_mal_puesto=1308, sin_casco=10122
+TOTAL imágenes: 13303
+
+  train: 10242 imágenes
+  val  : 1944 imágenes
+  test : 1117 imágenes
+
+Recortes para el clasificador:
+  casco_correcto     19328
+  casco_mal_puesto   1296
+  sin_casco          10037
+
+Etiquetas descartadas:
+  helmet_violation: person=145
+  mapua_helmet: rider=1
